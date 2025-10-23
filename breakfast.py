@@ -1,4 +1,8 @@
 def get_sentence(sentence):
+	if sentence.isdigit():
+		return"Invalid input!"
+
 	return sentence.upper()
 
-print(get_sentence("God is good."))
+sentence = input("Enter a sentence: ")
+print(get_sentence(sentence))
