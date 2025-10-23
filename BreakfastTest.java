@@ -10,6 +10,7 @@ public class BreakfastTest {
 
 	}
 
+
 	@Test
 	public void testThatASentenceIsCollectedAndConvertedToUpperCase() {	
 		Breakfast breakfast = new Breakfast();			
