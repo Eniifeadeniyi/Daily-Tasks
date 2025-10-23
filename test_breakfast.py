@@ -11,3 +11,6 @@ class BreakfastTest(unittest.TestCase):
 		actual = get_sentence("12345")
 		expected = "Invalid input!"
 		self.assertEqual(actual,expected)
+		actual = get_sentence("en11fe")
+		expected = "Invalid input!"
+		self.assertEqual(actual,expected)
