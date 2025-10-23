@@ -1,6 +1,7 @@
 def get_sentence(sentence):
-	if sentence.isdigit():
-		return"Invalid input!"
+	for letters in sentence:
+		if letters.isdigit():
+			return"Invalid input!"
 
 	return sentence.upper()
 

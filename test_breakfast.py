@@ -7,7 +7,7 @@ class BreakfastTest(unittest.TestCase):
 		expected = "ENIIFE"
 		self.assertEqual(actual,expected)
 	
-	def test_that_get_sentence_only_takes_in_string(self):
+	def test_that_get_sentence_only_takes_in_words(self):
 		actual = get_sentence("12345")
 		expected = "Invalid input!"
 		self.assertEqual(actual,expected)
