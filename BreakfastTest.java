@@ -7,7 +7,6 @@ public class BreakfastTest {
 		Breakfast breakfast = new Breakfast();			
 		String result = breakfast.getSentence("God is good.");		
 		assertEquals(result, "God is good.");				
-
 	}
 
 
@@ -16,7 +15,6 @@ public class BreakfastTest {
 		Breakfast breakfast = new Breakfast();			
 		String result = breakfast.convert("God is good.");		
 		assertEquals(result, "GOD IS GOOD.");				
-
 	}
 
 }
