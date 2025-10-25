@@ -1,5 +1,5 @@
 import unittest
-from breakfast import *
+from day_one import *
 
 class BreakfastTest(unittest.TestCase):
 	def test_that_get_sentence_works(self):

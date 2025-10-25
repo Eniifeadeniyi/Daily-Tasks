@@ -1,10 +1,10 @@
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-public class BreakfastTest {
+public class DayOneTest {
 
 	@Test
 	public void testThatASentenceIsCollected() {	
-		Breakfast breakfast = new Breakfast();			
+		DayOne breakfast = new DayOne();			
 		String result = breakfast.getSentence("God is good.");		
 		assertEquals(result, "God is good.");				
 	}
@@ -12,9 +12,21 @@ public class BreakfastTest {
 
 	@Test
 	public void testThatASentenceIsCollectedAndConvertedToUpperCase() {	
-		Breakfast breakfast = new Breakfast();			
+		DayOne breakfast = new DayOne();			
 		String result = breakfast.convert("God is good.");		
 		assertEquals(result, "GOD IS GOOD.");				
+
+
+
+
+
+
+
+
+
+
+
+
 	}
 
 }

@@ -1,5 +1,5 @@
 import unittest
-from love import *
+from day_two import *
 
 class TestLove(unittest.TestCase):
 	def test_get_petals_works(self):
@@ -48,5 +48,3 @@ class TestLove(unittest.TestCase):
 
 
 
-first_number = input("Enter the number of petals on your flower: ")
-second_number = input("Enter the number of petals on your partner's flower: ")
