@@ -10,7 +10,7 @@ for(let count = 1; count <= numberOfSheep; count++){
         console.log(present);
         present = prompt("Sheep " + count + ": ");
     }
-    attendance.push(present);
+    attendance.push(Boolean(present));
 }
 
-console.log(attendance)
+console.log(attendance);
